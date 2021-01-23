@@ -1,6 +1,6 @@
-#include<iostream>
-#include<stdio.h>
-#include<cmath>
+#include <iostream>
+#include <stdio.h>
+#include <cmath>
 using namespace std;
 // 题目1
 // int main()
@@ -45,13 +45,11 @@ using namespace std;
 //     printf("%d",a);
 // }
 
-
 // int main(){
 //     int a,b,c;
 //     scanf("%d %d %d",&a,&b,&c);
 //     printf("score1=%d,score2=%d,score3=%d",a,b,c);
 // }
-
 
 // int main(){
 //     int a;
@@ -61,7 +59,6 @@ using namespace std;
 //     scanf("%d;%f,%f,%f",&a,&b,&c,&d);
 //     printf("The each subject score of  No. %d is %.2f, %.2f, %.2f.",a,b,c,d);
 // }
-
 
 // int main(){
 //     int a;
@@ -74,11 +71,9 @@ using namespace std;
 //         i = i-1;
 // }
 
-
 // int main(){
 //     printf("%c%c%c%c%c%c%c%c%c%c%c%c",73,32,99,97,110,32,100,111,32,105,116,33);
 // }
-
 
 // int main(){
 //     int a,b,c;
@@ -86,13 +81,11 @@ using namespace std;
 //     printf("year=%04d\nmonth=%02d\ndate=%02d",a,b,c);
 // }
 
-
 // int main(){
 //     int a=400,c=212,b;
 //     b=(-8+22)*a-10+c/2;
 //     printf("%d",b);
 // }
-
 
 // int main(){
 //     int a,b;
@@ -104,7 +97,6 @@ using namespace std;
 //     printf("%d %d",c,d);
 // }
 
-
 // int main(){
 //     int a,b;
 //     scanf("%d %d",&a,&b);
@@ -112,7 +104,6 @@ using namespace std;
 //     c=(a+b)%100;
 //     printf("%d",c);
 // }
-
 
 // int main(){
 //     float a;
@@ -131,7 +122,6 @@ using namespace std;
 //     printf("%d",sec);
 // }
 
-
 // int main(){
 //     float a,b,c,d,e;
 //     scanf("%f %f %f",&a,&b,&c);
@@ -139,7 +129,6 @@ using namespace std;
 //     e=d/3;
 //     printf("%.1f %.1f",d,e);
 // }
-
 
 // int main(){
 //     float a,b;
@@ -151,11 +140,11 @@ using namespace std;
 //     printf("%.2f",d);
 // }
 
-
-int main(){
+int main()
+{
     float pi = 3.1415926;
-    float r,V;
-    scanf("%f",&r);
-    V=(4/3)*pi*r*r*r;
-    printf("%.3f",V);
+    float r, V;
+    scanf("%f", &r);
+    V = (4 / 3) * pi * r * r * r;
+    printf("%.3f", V);
 }
